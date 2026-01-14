@@ -3,128 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaura Naturals | Touch of Nature</title>
+    <title>Gaura Naturals | Luxury Vedic Aromatics</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #fdfaf5; color: #4a3728; }
-        h1, h2, h3, .brand-font { font-family: 'Playfair+Display', serif; }
-        .hero-bg {
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1602848598730-bb724e610313?auto=format&fit=crop&q=80');
+        body { font-family: 'Montserrat', sans-serif; background-color: #fffaf0; color: #3e2723; }
+        h1, h2, h3, .brand-font { font-family: 'Playfair Display', serif; }
+        
+        .hero-overlay {
+            background: linear-gradient(to bottom, rgba(62, 39, 35, 0.7), rgba(0, 0, 0, 0.4)), 
+                        url('https://images.unsplash.com/photo-1602848598730-bb724e610313?auto=format&fit=crop&q=80');
             background-size: cover; background-position: center;
         }
-        .bg-gold { background-color: #d4a34f; }
-        .text-gold { color: #d4a34f; }
+        
+        /* Vibrant Gold and Rich Brown */
+        .color-gold { color: #D4AF37; }
+        .bg-gold { background-color: #D4AF37; }
+        .bg-rich-brown { background-color: #3e2723; }
+        .border-gold { border-color: #D4AF37; }
+        
+        .logo-box {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }
     </style>
 </head>
 <body>
 
-    <nav class="flex justify-between items-center px-10 py-5 bg-[#fdfaf5] sticky top-0 z-50 shadow-sm">
-        <div class="text-3xl font-bold brand-font text-[#634832]">Gaura Naturals</div>
-        <div class="hidden md:flex space-x-8 font-medium text-sm uppercase tracking-widest">
-            <a href="#products" class="hover:text-gold transition">Products</a>
-            <a href="#sustainability" class="hover:text-gold transition">Sustainability</a>
-            <a href="#about" class="hover:text-gold transition">About</a>
+    <nav class="flex justify-between items-center px-8 py-6 bg-white shadow-md sticky top-0 z-50">
+        <div class="text-3xl font-bold brand-font tracking-tight text-[#3e2723]">Gaura Naturals</div>
+        <div class="hidden md:flex space-x-10 font-semibold text-xs uppercase tracking-[0.2em] text-gray-700">
+            <a href="#" class="hover:text-gold transition">Collection</a>
+            <a href="#" class="hover:text-gold transition">Our Story</a>
+            <a href="#" class="hover:text-gold transition">Sustainability</a>
         </div>
-        <div class="flex items-center space-x-5">
-            <span class="cursor-pointer text-xl">🛒</span>
-            <a href="#" class="text-sm font-semibold border-b border-black">Login</a>
+        <div class="px-6 py-2 bg-rich-brown text-white text-xs font-bold tracking-widest rounded-full cursor-pointer hover:bg-black transition">
+            LOGIN
         </div>
     </nav>
 
-    <section class="hero-bg h-[600px] flex flex-col items-center justify-center text-white text-center px-6">
-        <h1 class="text-7xl mb-2">GAURA</h1>
-        <p class="italic text-gold text-2xl mb-6">Touch of Nature</p>
-        <p class="max-w-2xl text-lg font-light leading-relaxed">
-            A symbol of peace, purity, and connection to nature. Handcrafted eco-friendly aromatics from recycled temple flowers and cow dung.
+    <section class="hero-overlay h-[80vh] flex flex-col items-center justify-center text-white text-center px-6">
+        <h1 class="text-8xl md:text-9xl mb-2 font-bold tracking-tighter drop-shadow-2xl">GAURA</h1>
+        <p class="italic color-gold text-3xl md:text-4xl mb-10 font-light drop-shadow-md">Touch of Nature</p>
+        <p class="max-w-3xl text-lg font-light leading-relaxed mb-12 text-gray-100">
+            Handcrafted eco-luxury aromatics from recycled temple flowers and cow dung. 
+            Reviving Vedic traditions with a touch of modernism.
         </p>
         
-        <div class="mt-12 bg-white/10 backdrop-blur-md p-8 rounded-sm border border-white/20 grid grid-cols-1 md:grid-cols-3 gap-10 max-w-4xl">
-            <div>
-                <span class="text-3xl font-bold text-gold block mb-2">G</span>
-                <p class="text-xs uppercase tracking-tighter">Represents style and <b>modernism</b></p>
+        <div class="logo-box p-10 rounded-lg grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl w-full shadow-2xl">
+            <div class="text-center">
+                <span class="text-5xl font-bold color-gold block mb-3">G</span>
+                <p class="text-[11px] font-semibold uppercase tracking-widest leading-normal text-white">Represents style <br>and modernism</p>
             </div>
-            <div>
-                <span class="text-3xl font-bold text-gold block mb-2">U</span>
-                <p class="text-xs uppercase tracking-tighter">Forms a <b>drop</b> representing our itra segment</p>
+            <div class="text-center border-x border-white/20 px-6">
+                <span class="text-5xl font-bold color-gold block mb-3">U</span>
+                <p class="text-[11px] font-semibold uppercase tracking-widest leading-normal text-white">Forms a drop representing <br>our itra segment</p>
             </div>
-            <div>
-                <span class="text-3xl font-bold text-gold block mb-2">A</span>
-                <p class="text-xs uppercase tracking-tighter">Negative space forms a <b>flower petal</b></p>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-20 px-10 grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-white p-10 text-center rounded-xl shadow-sm border border-orange-100">
-            <div class="text-4xl mb-4">🍃</div>
-            <h3 class="text-2xl font-bold mb-4">Eco-Friendly</h3>
-            <p class="text-sm leading-relaxed text-gray-500">Made from recycled temple flowers and cow dung, supporting environmental sustainability.</p>
-        </div>
-        <div class="bg-white p-10 text-center rounded-xl shadow-sm border border-orange-100">
-            <div class="text-4xl mb-4">✨</div>
-            <h3 class="text-2xl font-bold mb-4">Handcrafted</h3>
-            <p class="text-sm leading-relaxed text-gray-500">Lovingly crafted by village women artisans, preserving traditional methods.</p>
-        </div>
-        <div class="bg-white p-10 text-center rounded-xl shadow-sm border border-orange-100">
-            <div class="text-4xl mb-4">🧡</div>
-            <h3 class="text-2xl font-bold mb-4">Pure & Natural</h3>
-            <p class="text-sm leading-relaxed text-gray-500">Free from harmful chemicals, bringing the purest essence of nature to your space.</p>
-        </div>
-    </section>
-
-    <section id="products" class="py-10 px-10">
-        <h2 class="text-4xl text-center mb-16">Our Collection</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
-            <div class="bg-white group overflow-hidden shadow-md">
-                <div class="h-80 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1612548403247-aa2873e9422d?auto=format&fit=crop&q=80" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                </div>
-                <div class="p-6">
-                    <div class="flex space-x-2 mb-2 text-[10px] uppercase font-bold text-gray-400">
-                        <span>Handmade</span><span>•</span><span>Charcoal-free</span>
-                    </div>
-                    <h4 class="text-xl font-bold mb-2">Sambrani Havan Cups</h4>
-                    <p class="text-lg font-bold text-gray-800">$12.99</p>
-                </div>
-            </div>
-            <div class="bg-white group overflow-hidden shadow-md">
-                <div class="h-80 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1602848598730-bb724e610313?auto=format&fit=crop&q=80" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                </div>
-                <div class="p-6">
-                    <div class="flex space-x-2 mb-2 text-[10px] uppercase font-bold text-gray-400">
-                        <span>Pure Itra</span><span>•</span><span>Traditional</span>
-                    </div>
-                    <h4 class="text-xl font-bold mb-2">Jasmine Temple Agarbatti</h4>
-                    <p class="text-lg font-bold text-gray-800">$15.99</p>
-                </div>
-            </div>
-            <div class="bg-white group overflow-hidden shadow-md">
-                <div class="h-80 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1595914108199-041764359489?auto=format&fit=crop&q=80" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                </div>
-                <div class="p-6">
-                    <div class="flex space-x-2 mb-2 text-[10px] uppercase font-bold text-gray-400">
-                        <span>Bamboo-less</span><span>•</span><span>Eco-friendly</span>
-                    </div>
-                    <h4 class="text-xl font-bold mb-2">Premium Dhoop Cones</h4>
-                    <p class="text-lg font-bold text-gray-800">$11.99</p>
-                </div>
+            <div class="text-center">
+                <span class="text-5xl font-bold color-gold block mb-3">A</span>
+                <p class="text-[11px] font-semibold uppercase tracking-widest leading-normal text-white">Negative space forms <br>a flower petal</p>
             </div>
         </div>
     </section>
 
-    <section class="bg-gold my-20 py-16 px-6 text-center text-white">
-        <h2 class="text-4xl mb-6 uppercase tracking-widest">Our Mission</h2>
-        <p class="max-w-4xl mx-auto text-xl font-light leading-relaxed">
-            To revive Vedic practices using recycled temple flowers and cow dung to create sustainable eco-luxury products. We transform natural waste into premium aromatics while empowering village women artisans.
+    <section class="py-24 px-10 bg-[#fffaf0]">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-16">
+            <div class="text-center">
+                <div class="w-20 h-20 bg-white shadow-xl rounded-full flex items-center justify-center mx-auto mb-8 border border-gold">
+                    <span class="text-3xl">🍃</span>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 brand-font">Eco-Friendly</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">Sustainable products made from recycled floral waste.</p>
+            </div>
+            <div class="text-center">
+                <div class="w-20 h-20 bg-white shadow-xl rounded-full flex items-center justify-center mx-auto mb-8 border border-gold">
+                    <span class="text-3xl">✨</span>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 brand-font">Handcrafted</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">Artisanal products made by village women with love.</p>
+            </div>
+            <div class="text-center">
+                <div class="w-20 h-20 bg-white shadow-xl rounded-full flex items-center justify-center mx-auto mb-8 border border-gold">
+                    <span class="text-3xl">🧡</span>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 brand-font">Pure Essence</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">100% Charcoal-free and pure vedic ingredients.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-rich-brown py-20 px-8 text-center text-white border-y-4 border-gold">
+        <h2 class="text-4xl mb-8 brand-font tracking-widest uppercase">Our Mission</h2>
+        <p class="max-w-4xl mx-auto text-xl font-light leading-loose text-gray-200">
+            To transform natural waste into premium aromatics while empowering village women artisans. 
+            We are dedicated to chemical-free living and environmental sustainability.
         </p>
     </section>
 
-    <footer class="py-10 px-10 border-t border-orange-100 text-center">
-        <div class="text-2xl font-bold brand-font mb-4 text-[#634832]">Gaura Naturals</div>
-        <p class="text-sm text-gray-400">© 2026 Gaura Naturals Pvt Ltd. All rights reserved.</p>
+    <footer class="bg-white py-16 px-10 border-t border-stone-200">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="text-4xl font-bold brand-font mb-6 text-rich-brown">Gaura Naturals Pvt Ltd</h2>
+                <p class="text-gray-600 leading-relaxed max-w-md italic">
+                    Incorporated in October 2025. Delivering pure vedic aroma to your home.
+                </p>
+                <div class="mt-8 space-y-2 text-sm font-semibold">
+                    <p>📍 Ghaziabad – 201005</p>
+                    <p>📧 GAURANATURALSPVTLTD@GMAIL.COM</p>
+                    <p>📞 +91 8860140036</p>
+                </div>
+            </div>
+            <div class="flex flex-col md:items-end justify-center">
+                <p class="text-sm font-bold uppercase tracking-widest text-gold mb-2">Leadership</p>
+                <p class="text-lg text-rich-brown font-semibold">Yash Aggarwal (Director)</p>
+                <p class="text-lg text-rich-brown font-semibold">Aparna Gupta (Co-Director)</p>
+            </div>
+        </div>
+        <div class="mt-20 text-center text-[11px] text-gray-400 uppercase tracking-[0.4em]">
+            © 2026 Gaura Naturals | Premium Handcrafted Vedic Collection
+        </div>
     </footer>
 
 </body>
